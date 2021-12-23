@@ -63,11 +63,11 @@ const Home: NextPage = () => {
           I am also a tech enthusiast who loves Vim, Linux and OS X and enjoys to customize all of the development environments and editors.
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/skills">
+          {/* <NextLink href="/skills">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
-          </NextLink>
+          </NextLink> */}
         </Box>
       </Section>
       <Section delay={0.2}>
