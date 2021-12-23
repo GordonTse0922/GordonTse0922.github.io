@@ -23,14 +23,14 @@ const Home: NextPage = () => {
   return (
     <Container>
       <Box borderRadius="lg" p={3} mb={6} align="center">
-        <GlitchedText >Hello, Welcome to Gordon's Home Page</GlitchedText>
+        <GlitchedText >Hello, Welcome to Gordon&apos;s Home Page</GlitchedText>
       </Box>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Ho Yin Tse, Gordon
             <Badge variant='outline' colorScheme='green' style={{marginLeft:"5px"}}>
-              Web's Newbie
+              Web&apos;s Newbie
             </Badge>
           </Heading>
           <p>An oridnary person who can code, as simple as that</p>
