@@ -49,7 +49,7 @@ const Home: NextPage = () => {
             maxHeight={100}
             display="inline-block"
             borderRadius="full"
-            src="/images/gordon.jpg"
+            src="/images/gordon.jpeg"
             alt="Profile image"
           />
         </Box>
