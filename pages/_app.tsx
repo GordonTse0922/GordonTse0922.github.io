@@ -4,7 +4,6 @@ import theme from '../themes/theme'
 import LayOut from '../components/layouts/main'
 import { ReactElement } from 'react'
 import { NextRouter, useRouter } from 'next/router'
-import Canvas from '../themes/mouseTrail'
 
 type Props={
   Component:any,
