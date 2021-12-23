@@ -2,8 +2,10 @@ language: node_js
 node_js:
   - "stable"
 cache:
-  - public
-  - .cahce
+  directories:
+    - public
+    - .cahce
+    - node_modules
 script:
   - npm test
   - npm run build
