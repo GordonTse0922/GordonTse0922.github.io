@@ -2,16 +2,20 @@ language: node_js
 node_js:
   - "stable"
 cache:
+  npm
   directories:
     - public
     - .cahce
     - node_modules
 script:
   - npm run build
+  - npm run export
+  - touch out/.nojekyll
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
+  local_dir: out
   #The branch where it should deploy
   target_branch: gh-pages
   on:
