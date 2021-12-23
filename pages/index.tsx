@@ -29,9 +29,6 @@ const Home: NextPage = () => {
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Ho Yin Tse, Gordon
-            <Badge variant='outline' colorScheme='green' style={{marginLeft:"5px"}}>
-              Web&apos;s Newbie
-            </Badge>
           </Heading>
           <p>An oridnary person who can code, as simple as that</p>
         </Box>
@@ -65,13 +62,13 @@ const Home: NextPage = () => {
           <Link href="https://github.com/GordonTse0922" isExternal>GitHub</Link>).
           I am also a tech enthusiast who loves Vim, Linux and OS X and enjoys to customize all of the development environments and editors.
         </Paragraph>
-        {/* <Box align="center" my={4}>
+        <Box align="center" my={4}>
           <NextLink href="/skills">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
           </NextLink>
-        </Box> */}
+        </Box>
       </Section>
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
